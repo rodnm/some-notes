@@ -87,3 +87,4 @@ Está es la explicación paso a paso del código de PowerShell:
 6. `Remove-Item -Force -Recurse`: Una vez que se identifican las carpetas vacías, `Remove-Item` se utiliza para eliminarlas. `-Force` indica que se eliminarán sin pedir confirmación y `-Recurse` asegura que las subcarpetas vacías también se eliminarán.
 
 En resumen, el código busca todas las carpetas vacías y sus subcarpetas en una ruta determinada y las elimina sin solicitar confirmación. Recuerda que la eliminación es permanente y no se pueden recuperar las carpetas y archivos eliminados. Asegúrate de utilizarlo en la ruta correcta y con cuidado para evitar pérdida de datos no deseada.
+
